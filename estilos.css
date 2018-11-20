@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: lightblue;
 }
 
 h1 {
@@ -9,11 +9,24 @@ h1 {
 }
 
 h2 {
-    color: red;
+    color: blue;
     text-align: center;
 }
 
 p {
     font-family: arial;
     font-size: 20px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 720px){
+    body {
+        background-color: lightgreen;
+    }
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    body {
+        background-color: lightgray;
+    }
 }
